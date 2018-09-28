@@ -1,0 +1,110 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Joshua }{Fenech}
+\address{147 Rue de la Velle, Ardosset, Ceyzérieu, 01350, France}
+\mobile{(+33)650009709} 
+%%% Social
+\email{jfenech22@hotmail.com}
+%\homepage{www.posquit0.com}
+\github{anotherk1nd}
+\linkedin{Joshua Fenech}
+%%% Optionals
+\position{Machine Learner}
+\quote{Masters Machine Learning \& Data-mining student, Physics Graduate 2:1. Offering well-developed analytical, programming and interpersonal skills and experience of supervised machine learning implementation with DSP.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipient
+  {Mr. Gianni S. Raffi}
+  {Sonova AG,
+  	Laubisrütistrasse 28,
+  	8712 Stäfa,
+  	Switzerland}
+\letterdate{\today}
+\lettertitle{Application for Market Data Coordinator Internship}
+\letteropening{Dear Mr. Raffi,}
+\letterclosing{Sincerely,}
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Joshua Fenech ~~~·~~~Cover Letter}
+  {}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+\cvparagraph{About Me}
+I am a mature Physics graduate studying for a Masters in machine learning and data mining at UJM, Saint-Étienne. Being from a Physics background, I am used to modelising real world situations and using appropriate mathematical tools to deduce insights. 
+I have copious experience dealing with large datasets attained via querying databases with tailored GET scripts, interacting with online API’s and self-generation of data by physically recording audio data.  During my undergraduate Physics studies, I undertook a long independent project to predict galaxy rotation from spectroscopic measurements: I collated data from multiple sources and formats, imported csv and txt files using pandas to integrate and draw insight, before applying decision trees using scikit-learn. I also performed weekly physical experiments that required meticulous attention to detail and record keeping, both during the experiment and after when transferring paper records to Excel prior to performing regression and error analyses. The results were assessed weekly and so I am adept at moving through the stages of data collection to communicating insights quickly and accurately.
+
+\cvparagraph{Why Sonova?}
+Working at Sonova would allow me to further pursue my passion for improving lives with the aid of technology, providing experience within the industry in order to understand the infrastructure required to fund development and distribution of the latest scientific developments. For my Masters internship I chose to work on my idea to develop an app so that subtitles in any language could be automatically synchronised and viewed on a personal device. This was inspired by noticing the poor provisions for subtitled showings at cinemas when trying to go to the cinema with my girlfriend who is deaf (she is a Phonak user, hence how I found this opportunity). To do so I recorded my own data, applied audio feature selection by extracting Mel Frequency Cepstral Coefficients, trained a convolutional neural network using keras and tuned the network using hyperopt: I achieved an accuracy of up to 93\%, and I am looking to improve on this substantially by developing a separate app in order to crowdsource more data. Furthermore I am developing a questionnaire to identify the habits and preferences of those who are hard of hearing in order to determine how best to deploy my app, as well as regimes for monetising it in future: I will be distributing the questionnaire to targeted groups identified from social media.
+
+\cvparagraph{Why Me?}
+As a mature student I having studied in England, Hong Kong and France. I also have over two years experience in a professional sales environments, communicating with people of all backgrounds. Having travelled extensively in South-East Asia and China, I am capable of dealing with unforeseen circumstances calmly.
+Most importantly, because of the nature of the project and its alignment with my own ideals, I will bring passion and determination, and the technical skills to deliver.
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}

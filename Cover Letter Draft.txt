@@ -1,0 +1,23 @@
+Inria Cover Letter
+
+About Me
+I am a mature Physics graduate studying for a Masters in machine learning and data mining at Saint-Étienne. Being from a Physics background, I am used to modelising real world situations and using appropriate mathematical tools to deduce insights. 
+In my undergraduate project aiming to identify fast and slow rotating galaxies from imaging data,  I got my hands dirty, downloading large files using GET scripts, reformatting and restructuring the data from different sources in multiple ways in order to find the easiest way of manipulating it to my needs. I implemented decision trees and random forests using the scikit-learn package within python and extracted results. This whet my appetite to get “under the hood” and understand on a fundamental level how these algorithms work and can be optimised, as well as their theoretical limits. 	
+
+Why Biovision?
+I am very excited by the multi-disciplinary nature of the teams. Orginally a physicist, I came to machine learning in order to learn the tools that would allow me to examine problems from across the spectrum, in the process learning about totally new topics but with a common angle. As the founder and president of the rocket society at my previous university, we had members from across the spectrum, with history and biology students as well as physicists and engineers. This created a much more diverse and inspiring environment for us to solve problems.
+
+I am determinined to use my skills to solve problems that could help people lead happier lives. I am currently in the preplanning stage of developing a method to download subtitles onto a handheld device and be able to syncronise these when watching a film in a cinema. This is a basic problem, but affects the lives of millions of people who are hard of hearing, excluding them from a simple joy. This would involve signal processing in order to identify precisely the location in the film to sync correctly, and to maintain this throughout. Possible challenges would be to deal with extraneous noise, differing versions of films, and the limitations of real-time processing on a range of devices. Although audio and visual processing require significantly different tools and approaches, there are multiple overlaps: dealing with noisy data, real-time processing with possibly limited data, and the requirement for strong reliability and sensitivity. 
+
+
+Why Inria?
+I’m inspired by the open and agile model of research, with scientists from around the world and of different specialisms working on the biggest problems of today.
+At Inria I am excited by the fact that the institute encourages people with original career paths, like myself. Having taken time out of studies to work and understand the commercial world, I have a mature approach to solving problems, interacting and collaborating with other people, and so it would be inspiring to work and create with others who love the research but in an alternative research setting, bringing an academic approach to commercial problems.
+
+RandOpt
+
+Why Me?
+I also have over two years experience in a professional sales environments, communicating and persuading people of all backgrounds. As a mature student I am experienced in dealing with people of all personalities, having studied in England, Hong Kong and France. Having travelled extensively in South-East Asia and China, I am capable of dealing with unforeseen circumstances calmly.
+Maths skills from quantum physics, coupled differential equations from Optics and Photonics courses.
+Having founded my own society at the university and acquired funding and grown membership, I am adept at navigating beaurocracy in order to achieve results. Working as a team we won the Thales Arduino competition held at my university. In addition, I am currently working collaboratively to script our own blockchain.
+Most importantly, because of the nature of the project and its alignment with my own ideals, I will bring passion and determination, couple with the technical skills to deliver on such an     
